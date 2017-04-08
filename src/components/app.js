@@ -37,13 +37,12 @@ export default class App extends Component {
     return (
       <div className="container">
         <h1>The Counter</h1>
-        <h2>{this.state.counter}</h2>
-        <button
+        <img
+          className="trump"
+          src="/public/trump.png"
           onClick={this.handleIncrement}
-          className="btn btn-primary"
-        >
-          Increment
-        </button>
+        />
+        <h2>{`Trump has been shaken ${this.state.counter} times`}</h2>
       </div>
     );
   }

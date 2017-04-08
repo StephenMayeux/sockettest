@@ -5,7 +5,8 @@
   "main": "server.js",
   "repository": "",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "server": "webpack && nodemon server.js"
   },
   "author": "Stephen Mayeux",
   "license": "ISC",
